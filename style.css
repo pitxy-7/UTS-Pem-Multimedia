@@ -1,0 +1,59 @@
+body {
+    background-image: url("dd.jpg") ;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.carousel {
+    max-width: 60%;
+    margin: auto;
+}
+  
+.carousel-caption {
+    background-color: hsl(0, 0%, 0%, 0.5);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.video-container {
+    width: 640px;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.controls {
+    background-color: #97823c;
+    padding: 8px;
+    margin : auto;
+    max-width: 640px;
+}
+
+.tombol {
+    background-color: #383733;
+    color: rgb(240, 201, 201);
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+form {
+    opacity: 0.8;
+    border-radius: 10px;
+}
